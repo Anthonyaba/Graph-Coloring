@@ -26,8 +26,8 @@ int T[n][m];
 int R_d[10000000][2];    //对领域动作的记录表
 int R_tabud[10000000][2]; 
 int r1_c[n], r2_c[n];
-int dd[m], R_dd[m];  //R dd对dd的记录表
-int new_c[n];
+int dd[m], R_dd[m];  //R dd对dd的记录表   dd[i]  第i个颜色内有多少个节点
+int new_c[n]; //新生成解S0的节点颜色表c
 //int new_b[n][m];
 //生成表a[][]
 void initialize_a()
